@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 9、判断数组中是否存在一个数字大于0,就在控制台打印出“数组中有大于0的”不是就在控制台打印“NO”
+    let arr = [-1, -2, 0, 3, -4];
+let foundGreaterThanZero = false;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 0) {
+    foundGreaterThanZero = true;
+    break;  
+  }
+}
+
+if (foundGreaterThanZero) {
+  console.log("数组中有大于0的");
+} else {
+  console.log("NO");
+}
+
+</script>
+</html>
